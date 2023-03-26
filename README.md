@@ -1,6 +1,6 @@
 # SpringBootMicroServicesInKubernetes
 This is an example project with Java Spring Boot micro-services architecture deployed on Kubernetes.
-The purple of this project is to explore a micro services architecture realized with:
+The purpose of this project is to explore a micro services architecture realized with:
 
 - Spring Boot 3 and Java 17
 - Spring Boot Cloud features for Service Discovery, Spring Boot Gateway, Feign Client
@@ -31,7 +31,7 @@ You need to install in your computer:
 I'm not a devops, so if someone would like to give me some suggestions on how improves my k8s scripts, they are welcome.
 For create the Kubernetes cluster in local with kind, you can use official kind documentation. I, personally, used this <a href="https://cloudyuga.guru/hands_on_lab/kind-k8s">"practical" guide</a>
 
-## Structure of project
+## Structure of the project
 The project has a branch for each progressive step, so you can check out a branch for inspect a progressive step.
 Inside doc directory there is a README-step-n.md file for each step. It contains the more important notes to remember.
 
