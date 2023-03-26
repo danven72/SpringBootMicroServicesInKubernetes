@@ -1,0 +1,25 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: book-service
+
+#Actuator
+management:
+  info:
+    env:
+      enabled: true
+    build:
+      enabled: true
+    java:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  endpoints:
+    #env:
+    #  show-values: ALWAYS
+    web:
+      exposure:
+        include: health, env, info, beans, metrics, mappings, threaddump
